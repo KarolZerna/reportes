@@ -4,7 +4,9 @@
     margin-top: 0px;
     padding: 20px 10px;
   }
-  
+  body{
+    margin: 0%;
+  }
   .header a {
     float: left;
     color: #FFA500;
