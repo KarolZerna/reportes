@@ -1,6 +1,6 @@
 .header {
     overflow: hidden;
-    background-color: #06153B;
+    background-color: #052854;
     margin-top: 0px;
     padding: 20px 10px;
   }
@@ -50,3 +50,16 @@
   
 
     
+.title {
+  position: absolute;
+  width: 1512px;
+  height: 50px;
+  left: 0px;
+  top: 125px;
+  background: #052854;
+}
+
+.title p {
+  color: #ddd;
+  text-align: center;
+}
