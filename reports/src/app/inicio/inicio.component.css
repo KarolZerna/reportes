@@ -24,11 +24,6 @@
     font-weight: bold;
   }
   
-  .header a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
   .header a.active {
     background-color: dodgerblue;
     color: white;
@@ -90,12 +85,14 @@
   display: flex;
   flex-wrap: wrap;
 }
-button{
-width: 100px;
 
+button{
+width: 50%;
+height: 40%;
 background: #FFA500;
-border-radius: 40px;
+border-radius: 30px;
 }
+
 .breadcrumb{
   margin: 20px;
   padding:5px;
