@@ -7,14 +7,18 @@ import { InicioComponent } from './inicio/inicio.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './card/card.component';
-import { MatCardModule } from '@angular/material/card'
+import { MatCardModule } from '@angular/material/card';
+import { PastoralComponent } from './pastoral/pastoral.component';
+import { IdiomasComponent } from './idiomas/idiomas.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
     CabeceraComponent,
-    CardComponent
+    CardComponent,
+    PastoralComponent,
+    IdiomasComponent
   ],
   imports: [
     BrowserModule,
