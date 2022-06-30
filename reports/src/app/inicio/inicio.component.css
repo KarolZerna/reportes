@@ -48,8 +48,6 @@
       float: none;
     }
   }
-  
-
     
 .title {
   height: 50px;
@@ -89,6 +87,7 @@
   padding: 2px 16px;
   float: center;
   display: flex;
+  flex-wrap: wrap;
 }
 button{
 width: 100px;
