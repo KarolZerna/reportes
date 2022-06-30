@@ -9,7 +9,7 @@
   }
   .header a {
     float: left;
-    color: #FFA500;
+    color: #ffa500;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -62,4 +62,36 @@
 .title p {
   color: #ddd;
   text-align: center;
+}
+.card {
+
+padding: 3px;
+width: 400px;
+height: 100px;
+
+background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  font-weight: 600;
+font-size: 30px;
+line-height: 24px;
+align-items: center;
+text-align: center;
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  float: center;
+  display: flex;
+}
+button{
+width: 100px;
+
+background: #FFA500;
+border-radius: 40px;
 }
