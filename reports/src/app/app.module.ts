@@ -7,8 +7,6 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CardComponent } from './card/card.component';
-import { MatCardModule } from '@angular/material/card';
 import { PastoralComponent } from './pastoral/pastoral.component';
 import { IdiomasComponent } from './idiomas/idiomas.component';
 import { TomaMateriasComponent } from './toma-materias/toma-materias.component'
@@ -18,7 +16,6 @@ import { TomaMateriasComponent } from './toma-materias/toma-materias.component'
     AppComponent,
     InicioComponent,
     CabeceraComponent,
-    CardComponent,
     PastoralComponent,
     IdiomasComponent,
     TomaMateriasComponent

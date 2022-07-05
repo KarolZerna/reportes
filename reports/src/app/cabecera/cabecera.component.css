@@ -2,8 +2,6 @@
     overflow: hidden;
     position: absolute;
     background-color: #052854;
-    margin-top: 0px;
-    padding: 0px 0px;
   }
   
   .header a {
@@ -46,3 +44,6 @@
     }
   }
   
+  .example-spacer {
+    flex: 1 1 auto;
+  }
