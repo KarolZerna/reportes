@@ -1,11 +1,28 @@
-<p>toma-materias works!</p>
-
-<h4>Basic mat-select</h4>
+<br>
+<!-- sede, carrera, periodos academicos -->
 <mat-form-field appearance="fill">
-  <mat-label>Favorite food</mat-label>
+  <mat-label>SEDE:</mat-label>
   <mat-select>
-    <!-- <mat-option *ngFor="let food of foods" [value]="1"> -->
-      <!-- {{food.viewValue}} -->
-    <!-- </mat-option> -->
+    <mat-option *ngFor="let sede of sedes" [value]="sede.value">
+      {{sede.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>CARRERAS:</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let carrera of carreras" [value]="carrera.value">
+      {{carrera.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>PERIODOS ACADEMICOS:</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let periodo of periodos" [value]="periodo.value">
+      {{periodo.viewValue}}
+    </mat-option>
   </mat-select>
 </mat-form-field>
