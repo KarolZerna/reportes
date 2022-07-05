@@ -1,30 +1,30 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import {MaterialExampleModule} from './material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CardComponent } from './card/card.component';
-import { MatCardModule } from '@angular/material/card';
 import { PastoralComponent } from './pastoral/pastoral.component';
-import { IdiomasComponent } from './idiomas/idiomas.component'
+import { IdiomasComponent } from './idiomas/idiomas.component';
+import { TomaMateriasComponent } from './toma-materias/toma-materias.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
     CabeceraComponent,
-    CardComponent,
     PastoralComponent,
-    IdiomasComponent
+    IdiomasComponent,
+    TomaMateriasComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MaterialExampleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

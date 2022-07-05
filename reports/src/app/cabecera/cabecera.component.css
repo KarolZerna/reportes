@@ -2,8 +2,6 @@
     overflow: hidden;
     position: absolute;
     background-color: #052854;
-    margin-top: 0px;
-    padding: 0px 0px;
   }
   
   .header a {
@@ -25,24 +23,7 @@
     background-color: #ddd;
     color: black;
   }
-  
-  .header a.active {
-    background-color: dodgerblue;
-    color: white;
+    
+  .example-spacer {
+    flex: 1 1 auto;
   }
-  
-  .header-right {
-    float: right;
-  }
-  
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
-  
