@@ -1,7 +1,10 @@
 <br>
+<div class="breadcrumb">
+  <a> Reporte </a>
+</div>
 <!-- sede, carrera, periodos academicos -->
 <mat-form-field appearance="fill">
-  <mat-label>SEDE:</mat-label>
+  <mat-label>Sede:</mat-label>
   <mat-select>
     <mat-option *ngFor="let sede of sedes" [value]="sede.value">
       {{sede.viewValue}}
@@ -10,7 +13,7 @@
 </mat-form-field>
 
 <mat-form-field appearance="fill">
-  <mat-label>CARRERAS:</mat-label>
+  <mat-label>Carreras:</mat-label>
   <mat-select>
     <mat-option *ngFor="let carrera of carreras" [value]="carrera.value">
       {{carrera.viewValue}}
@@ -19,7 +22,7 @@
 </mat-form-field>
 
 <mat-form-field appearance="fill">
-  <mat-label>PERIODOS ACADEMICOS:</mat-label>
+  <mat-label>Periodos Académicos:</mat-label>
   <mat-select>
     <mat-option *ngFor="let periodo of periodos" [value]="periodo.value">
       {{periodo.viewValue}}
