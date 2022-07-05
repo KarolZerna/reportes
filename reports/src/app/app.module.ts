@@ -9,7 +9,8 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PastoralComponent } from './pastoral/pastoral.component';
 import { IdiomasComponent } from './idiomas/idiomas.component';
-import { TomaMateriasComponent } from './toma-materias/toma-materias.component'
+import { TomaMateriasComponent } from './toma-materias/toma-materias.component';
+import { GenerosComponent } from './generos/generos.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TomaMateriasComponent } from './toma-materias/toma-materias.component'
     CabeceraComponent,
     PastoralComponent,
     IdiomasComponent,
-    TomaMateriasComponent
+    TomaMateriasComponent,
+    GenerosComponent
   ],
   imports: [
     BrowserModule,
