@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+<<<<<<< HEAD
 interface Sede {
   value: string;
   viewValue: string;
@@ -26,12 +27,15 @@ interface Antiguedad {
 }
 
 
+=======
+>>>>>>> b84c42fc04af52cb20cce7a720d77a2aa441278d
 @Component({
   selector: 'app-generos',
   templateUrl: './generos.component.html',
   styleUrls: ['./generos.component.css']
 })
 export class GenerosComponent implements OnInit {
+<<<<<<< HEAD
   sedes: Sede[] = [
     {value: 'sede-lp', viewValue: 'Sede La Paz'},
     {value: 'sede-cbb', viewValue: 'Sede Cochabamba'},
@@ -60,6 +64,9 @@ export class GenerosComponent implements OnInit {
     {value: 'nuevos', viewValue: 'Nuevos'},
     {value: 'antiguos-nuevos', viewValue: 'Antiguos y Nuevos'},
   ];
+=======
+
+>>>>>>> b84c42fc04af52cb20cce7a720d77a2aa441278d
   constructor() { }
 
   ngOnInit(): void {
