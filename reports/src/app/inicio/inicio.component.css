@@ -1,3 +1,13 @@
+.breadcrumb{
+  margin: 20px;
+  padding:5px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
 .title {
   height: 50px;
   top: 125px;
@@ -15,20 +25,16 @@
 }
 .card {
   padding-top: 20px;
-  /* width: 400px; */
-  /* height: 90px; */
-  width: 31.8%;
-  height: 90px;
-  background: #FFFFFF;
+  padding-bottom: 20px;
+  width: 29%;
+  height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
   align-items: center;
   text-align: center;
   border-radius: 10px;
   margin: 10px;
+  margin-bottom: 10px;
 }
 
 .card:hover {
@@ -36,7 +42,7 @@
 }
 
 .container {
-  padding: 2px 16px;
+  padding: 10px 16px;
   float: center;
   display: flex;
   flex-wrap: wrap;
@@ -47,14 +53,4 @@ width: 50%;
 height: 40%;
 background: #FFA500;
 border-radius: 30px;
-}
-
-.breadcrumb{
-  margin: 20px;
-  padding:5px;
-  background: #FFFFFF;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  font-weight: 600;
-  font-size: 20px;
-  border-radius: 10px;
 }
