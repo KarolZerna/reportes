@@ -10,7 +10,6 @@ import { CardComponent } from './card/card.component';
 import { MatCardModule } from '@angular/material/card';
 import { PastoralComponent } from './pastoral/pastoral.component';
 import { IdiomasComponent } from './idiomas/idiomas.component';
-import { TestComponent } from './test/test.component'
 
 @NgModule({
   declarations: [
@@ -19,8 +18,7 @@ import { TestComponent } from './test/test.component'
     CabeceraComponent,
     CardComponent,
     PastoralComponent,
-    IdiomasComponent,
-    TestComponent
+    IdiomasComponent
   ],
   imports: [
     BrowserModule,
