@@ -9,7 +9,10 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PastoralComponent } from './pastoral/pastoral.component';
 import { IdiomasComponent } from './idiomas/idiomas.component';
+<<<<<<< HEAD
 import { TomaMateriasComponent } from './toma-materias/toma-materias.component'
+=======
+>>>>>>> 6d7c6719dd1a5d54a08faa05216a30e5dd9660aa
 
 @NgModule({
   declarations: [
