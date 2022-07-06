@@ -33,11 +33,11 @@ export class TomaMateriasComponent implements OnInit {
     {value: 'sis', viewValue: 'Ingeniería de Sistemas'},
   ];
   periodos: Periodo[] = [
-    {value: 'v-2022', viewValue: 'V-2022'},
-    {value: '2-2022', viewValue: '2-2022'},
-    {value: 'i-2022', viewValue: 'I-2022'},
-    {value: '1-2022', viewValue: '1-2022'},
     {value: 'v-2022', viewValue: 'V-2021'},
+    {value: '2-2022', viewValue: '2-2021'},
+    {value: 'i-2022', viewValue: 'I-2021'},
+    {value: '1-2022', viewValue: '1-2021'},
+    {value: 'v-2022', viewValue: 'V-2020'},
   ];
   constructor() { }
 
