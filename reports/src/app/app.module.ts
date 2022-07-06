@@ -9,7 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './card/card.component';
 import { MatCardModule } from '@angular/material/card';
 import { PastoralComponent } from './pastoral/pastoral.component';
-import { IdiomasComponent } from './idiomas/idiomas.component'
+import { IdiomasComponent } from './idiomas/idiomas.component';
+import { TestComponent } from './test/test.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { IdiomasComponent } from './idiomas/idiomas.component'
     CabeceraComponent,
     CardComponent,
     PastoralComponent,
-    IdiomasComponent
+    IdiomasComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
