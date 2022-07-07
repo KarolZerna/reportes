@@ -1,76 +1,3364 @@
 {
-    "dbGenero":[
+    "dbTomaMaterias":[
         {
-            "sede": "COCHABAMBA",
-            "carrera": "INGENIERÍA DE SISTEMAS",
-            "periodo academico": "1-2020",
-            "plan academico": "SIS-2009",
-            "antiguedad": "ANTIGUOS",
-            "cantidad de varones": "30",
-            "cantidad de mujeres": "10 "
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 300
         },
         {
-            "sede": "COCHABAMBA",
-            "carrera": "INGENIERÍA DE SISTEMAS",
-            "periodo academico": "1-2020",
-            "plan academico": "SIS-2009",
-            "antiguedad": "NUEVOS",
-            "cantidad de varones": "0",
-            "cantidad de mujeres": "0 "
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 50
         },
         {
-            "sede": "COCHABAMBA",
-            "carrera": "INGENIERÍA DE SISTEMAS",
-            "periodo academico": "1-2020",
-            "plan academico": "SIS-2017",
-            "antiguedad": "ANTIGUOS",
-            "cantidad de varones": "150",
-            "cantidad de mujeres": "40 "
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 297
         },
         {
-            "sede": "COCHABAMBA",
-            "carrera": "INGENIERÍA DE SISTEMAS",
-            "periodo academico": "1-2020",
-            "plan academico": "SIS-2017",
-            "antiguedad": "NUEVOS",
-            "cantidad de varones": "32",
-            "cantidad de mujeres": "20 "
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 50
         },
         {
-            "sede": "COCHABAMBA",
-            "carrera": "PSICOLOGÍA",
-            "periodo academico": "1-2020",
-            "plan academico": "PSI-2011",
-            "antiguedad": "ANTIGUOS",
-            "cantidad de varones": "5",
-            "cantidad de mujeres": "10 "
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 295
         },
         {
-            "sede": "COCHABAMBA",
-            "carrera": "PSICOLOGÍA",
-            "periodo academico": "1-2020",
-            "plan academico": "PSI-2011",
-            "antiguedad": "NUEVOS",
-            "cantidad de varones": "0",
-            "cantidad de mujeres": "0 "
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 50
         },
         {
-            "sede": "COCHABAMBA",
-            "carrera": "PSICOLOGÍA",
-            "periodo academico": "1-2020",
-            "plan academico": "PSI-2020",
-            "antiguedad": "ANTIGUOS",
-            "cantidad de varones": "100",
-            "cantidad de mujeres": "120 "
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 294
         },
         {
-            "sede": "COCHABAMBA",
-            "carrera": "PSICOLOGÍA",
-            "periodo academico": "1-2020",
-            "plan academico": "PSI-2020",
-            "antiguedad": "NUEVOS",
-            "cantidad de varones": "20",
-            "cantidad de mujeres": "32"
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 45
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 40
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 298
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 296
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 294
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 46
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 45
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 2
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 7
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 16
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 550
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 540
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 537
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 535
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 530
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 120
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 550
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 540
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 537
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 535
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 530
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 12
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 23
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 24
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 1
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 12
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 28
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 150
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 190
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 130
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 98
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 84
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 1
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 2
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 6
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 7
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 17
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 300
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 297
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 295
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 294
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 45
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 40
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 298
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 296
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 294
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 46
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 45
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 2
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 7
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 16
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 550
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 540
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 537
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 535
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 530
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 120
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 550
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 540
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 537
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 535
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 530
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 12
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 23
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 24
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 1
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 12
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 28
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 150
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 190
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 130
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 98
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 84
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 1
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 2
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 6
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 7
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "SANTA CRUZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 17
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 300
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 297
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 295
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 294
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 45
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 40
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 298
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 296
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 294
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 46
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 45
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 2
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 7
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 16
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 550
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 540
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 537
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 535
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 530
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 120
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 550
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 540
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 537
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 535
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 530
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 12
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 23
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 24
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 1
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 12
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 28
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 150
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 190
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 130
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 98
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 84
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 1
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 2
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 6
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 7
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 17
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 300
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 297
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 295
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 294
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 45
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 40
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 298
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 296
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 50
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 294
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 46
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 45
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 2
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 7
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 16
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 550
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 540
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 537
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 535
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 530
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 120
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 550
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 540
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 537
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 99
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 535
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 530
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 12
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 23
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 24
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 1
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 12
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 30
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 28
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA INDUSTRIAL",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 150
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 100
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 90
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 200
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 190
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 9
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 130
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 98
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 84
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 1
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 5
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 2
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 15
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "PRIMER",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEGUNDO",
+         "CANTIDAD INSCRITOS": 0
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "TERCER",
+         "CANTIDAD INSCRITOS": 3
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "CUARTO",
+         "CANTIDAD INSCRITOS": 8
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "QUINTO",
+         "CANTIDAD INSCRITOS": 6
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEXTO",
+         "CANTIDAD INSCRITOS": 10
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "SEPTIMO",
+         "CANTIDAD INSCRITOS": 7
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "OCTAVO",
+         "CANTIDAD INSCRITOS": 20
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "NOVENO",
+         "CANTIDAD INSCRITOS": 4
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "SEMESTRE": "DECIMO",
+         "CANTIDAD INSCRITOS": 17
         }
-    ]
+       ]
 }

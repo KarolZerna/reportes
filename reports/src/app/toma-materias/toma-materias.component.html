@@ -40,7 +40,6 @@
     .chartCard {
       width: 100vw;
       height: calc(100vh - 40px);
-      background: rgba(255, 26, 104, 0.2);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -62,7 +61,14 @@
   </div>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
-  // setup 
+  // setup
+  async function fetchData(){
+    const url = 'http://localhost:3000/dbTomaMaterias';
+    const response = await fetch(url);
+    const datapoints = await response.json();
+    console.log(datapoints);
+  }
+  
   const data = {
     labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
     datasets: [{
