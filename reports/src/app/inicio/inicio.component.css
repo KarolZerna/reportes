@@ -53,4 +53,18 @@ width: 50%;
 height: 40%;
 background: #FFA500;
 border-radius: 30px;
+<<<<<<< HEAD
 }
+=======
+}
+
+.breadcrumb{
+  margin: 20px;
+  padding:5px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 10px;
+}
+>>>>>>> 9b24901c2898ad81b8845485dd3c9625d924f9c4
