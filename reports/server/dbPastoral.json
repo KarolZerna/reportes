@@ -1,0 +1,1084 @@
+{
+    "dbPastoral":[
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "1-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "2-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "I-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "PRIMERO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "LA PAZ",
+         "CARRERA": "INGENIERÍA DE SISTEMAS",
+         "SEMESTRE ACTUAL": "CUARTO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA DE INDUSTRIAL",
+         "SEMESTRE ACTUAL": "QUINTO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "INGENIERÍA COMERCIAL",
+         "SEMESTRE ACTUAL": "SEXTO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "ADMINISTRACIÓN",
+         "SEMESTRE ACTUAL": "SEPTIMO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "COMUNICACIÓN",
+         "SEMESTRE ACTUAL": "NOVENO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "SI"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "FILOSOFIA Y LETRAS",
+         "SEMESTRE ACTUAL": "OCTAVO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "TARIJA",
+         "CARRERA": "PSICOLOGÍA",
+         "SEMESTRE ACTUAL": "TERCERO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "SI",
+         "NIVEL 2": "SI",
+         "NIVEL 3": "NO"
+        },
+        {
+         "SEDE": "COCHABAMBA",
+         "CARRERA": "INGENIERÍA MECATRÓNICA",
+         "SEMESTRE ACTUAL": "SEGUNDO",
+         "PERÍODO ACADÉMICO": "V-2021",
+         "NIVEL 1": "NO ",
+         "NIVEL 2": "NO ",
+         "NIVEL 3": "NO"
+        }
+       ]
+}
