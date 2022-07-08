@@ -5,6 +5,7 @@ import {PastoralComponent} from './pastoral/pastoral.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TomaMateriasComponent } from './toma-materias/toma-materias.component';
 import { GenerosComponent } from './generos/generos.component';
+import { TituladosComponent } from './titulados/titulados.component';
 
 const routes: Routes = [
   {path: 'inicio', component: InicioComponent, pathMatch: 'full'},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'pastoral', component: PastoralComponent, pathMatch: 'full'},
   {path: 'tomaMaterias', component: TomaMateriasComponent, pathMatch: 'full'},
   {path: 'generos', component: GenerosComponent, pathMatch: 'full'},
+  {path: 'titulados', component: TituladosComponent, pathMatch: 'full'},
   {path: '**', redirectTo: '/inicio'}
 ];
 
