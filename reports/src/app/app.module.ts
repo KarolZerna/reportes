@@ -16,6 +16,7 @@ import { IdiomasComponent } from './idiomas/idiomas.component';
 import { TomaMateriasComponent } from './toma-materias/toma-materias.component';
 import { GenerosComponent } from './generos/generos.component'
 import { TituladosComponent } from './titulados/titulados.component'
+import { ResumenComponent } from './resumen/resumen.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TituladosComponent } from './titulados/titulados.component'
     IdiomasComponent,
     TomaMateriasComponent,
     GenerosComponent,
-    TituladosComponent
+    TituladosComponent,
+    ResumenComponent
   ],
   imports: [
     BrowserModule,
