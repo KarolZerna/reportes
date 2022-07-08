@@ -1,1 +1,18 @@
 <p>titulados works!</p>
+<h1>TABLE using JSON!</h1>
+<hr>
+<table id="titulados">
+    <tr>
+        <th *ngFor="let col of columns" >
+            {{col}}
+        </th>
+    </tr>
+
+    <tr *ngFor="let titulado of titulados">
+        <td *ngFor="let col of index" >
+            {{titulado[col]}} 
+        </td>
+    </tr>
+
+</table>
+

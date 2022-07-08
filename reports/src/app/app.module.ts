@@ -12,6 +12,7 @@ import { IdiomasComponent } from './idiomas/idiomas.component';
 import { TomaMateriasComponent } from './toma-materias/toma-materias.component';
 import { GenerosComponent } from './generos/generos.component'
 import { TituladosComponent } from './titulados/titulados.component'
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TituladosComponent } from './titulados/titulados.component'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialExampleModule
+    MaterialExampleModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
