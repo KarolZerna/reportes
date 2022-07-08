@@ -15,6 +15,7 @@ import { PastoralComponent } from './pastoral/pastoral.component';
 import { IdiomasComponent } from './idiomas/idiomas.component';
 import { TomaMateriasComponent } from './toma-materias/toma-materias.component';
 import { GenerosComponent } from './generos/generos.component'
+import { TituladosComponent } from './titulados/titulados.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { GenerosComponent } from './generos/generos.component'
     PastoralComponent,
     IdiomasComponent,
     TomaMateriasComponent,
-    GenerosComponent
+    GenerosComponent,
+    TituladosComponent
   ],
   imports: [
     BrowserModule,
