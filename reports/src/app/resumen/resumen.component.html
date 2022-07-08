@@ -2,8 +2,8 @@
 <div class="breadcrumb">
   <a> Reporte </a>
 </div>
-<!-- sede, carrera, periodos academicos -->
-<mat-form-field appearance="fill">
+
+<!-- <mat-form-field appearance="fill">
   <mat-label>Sede:</mat-label>
   <mat-select>
     <mat-option *ngFor="let sede of sedes" [value]="sede.value">
@@ -30,19 +30,24 @@
   </mat-select>
 </mat-form-field>
 
+<mat-form-field appearance="fill">
+  <mat-label>Plan de estudios:</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let plan of planes" [value]="plan.value">
+      {{plan.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>Materia:</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let materia of materias" [value]="materia.value">
+      {{materia.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field> -->
+
 <div class="title">
-  <p>TOMA DE MATERIAS - CANTIDAD DE ESTUDIANTES INSCRITOS EN CADA SEMESTRE</p>
-</div>
-
-
-<div width="30%" height="30%">
-  <canvas baseChart
-    [datasets]="barChartData"
-    [labels]="barChartLabels"
-    [colors]="barChartColors"
-    [legend]="barChartLegend"
-    [chartType]="barChartType"
-    [plugins]="barChartPlugins"
-  >
-  </canvas>
+  <p>RESUMEN APROBADOS, INHABILITADOS, REPROBADOS, ABANDONOS POR MATERIAS</p>
 </div>
