@@ -37,5 +37,5 @@ import { GenerosComponent } from './generos/generos.component'
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  public lineChartType: ChartType = "line";
+  public barChartType: ChartType = "bar";
 }
