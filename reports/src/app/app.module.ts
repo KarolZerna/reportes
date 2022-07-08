@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ChartsModule } from 'ng2-charts';
+import { ChartType } from 'chart.js';
+ 
+
 
 import {MaterialExampleModule} from './material.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -26,9 +30,12 @@ import { GenerosComponent } from './generos/generos.component'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialExampleModule
+    MaterialExampleModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  public lineChartType: ChartType = "line";
+}
