@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatSelectChange } from '@angular/material/select';
 import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Color } from 'ng2-charts';
 import { Label } from 'ng2-charts';
@@ -51,11 +52,9 @@ export class TomaMateriasComponent implements OnInit {
   public barChartType: ChartType = 'bar';
   public barChartPlugins = [];
   
-  sedes: Sede[] = [
-    {value: 'sede-lp', viewValue: 'Sede La Paz'},
-    {value: 'sede-cbb', viewValue: 'Sede Cochabamba'},
-    {value: 'sede-sc', viewValue: 'Sede Santa Cruz'},
-  ];
+  public sedeSelected:[] = [];
+
+  sedes: string[] = ['Sede La Paz','Sede Cochabamba','Sede Santa Cruz'];
   carreras: Carrera[] = [
     {value: 'der', viewValue: 'Derecho'},
     {value: 'fyl', viewValue: 'Filosofía y Letras'},
@@ -69,6 +68,11 @@ export class TomaMateriasComponent implements OnInit {
     {value: 'v-2022', viewValue: 'V-2020'},
   ];
 
+  cambiarSede(event: MatSelectChange){
+    this.sedeSelected = [];
+    console.log(event.value);
+    this.sedeSelected = event.value;
+  }
   
   constructor() { }
 

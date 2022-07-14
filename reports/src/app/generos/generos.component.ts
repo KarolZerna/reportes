@@ -10,26 +10,6 @@ interface Sede {
   viewValue: string;
 }
 
-interface Carrera {
-  value: string;
-  viewValue: string;
-}
-
-interface Periodo {
-  value: string;
-  viewValue: string;
-}
-
-interface Plan {
-  value: string;
-  viewValue: string;
-}
-
-interface Antiguedad {
-  value: string;
-  viewValue: string;
-}
-
 
 @Component({
   selector: 'app-generos',
@@ -44,36 +24,17 @@ export class GenerosComponent implements OnInit {
     {value: 'Cochabamba', viewValue: 'Sede Cochabamba'},
     {value: 'Santa Cruz', viewValue: 'Sede Santa Cruz'},
   ];
-  carreras: Carrera[] = [
-    {value: 'Ingeniería de Sistemas', viewValue: 'Ingeniería de Sistemas'},
-    {value: 'Psicología', viewValue: 'Psicología'},
-    {value: 'General', viewValue: 'General'},
-  ];
-  periodos: Periodo[] = [
-    {value: 'V-2020', viewValue: 'V-2020'},
-    {value: '1-2020', viewValue: '1-2020'},
-    {value: 'I-2020', viewValue: 'I-2020'},
-    {value: '2-2020', viewValue: '2-2020'},
-  ];
-  planes: Plan[] = [
-    {value: 'PSI-2011', viewValue: 'PSI-2011'},
-    {value: 'PSI-2020', viewValue: 'PSI-2020'},
-    {value: 'SIS-2009', viewValue: 'SIS-2009'},
-    {value: 'SIS-2017', viewValue: 'SIS-2017'},
-    {value: 'Todos los Planes', viewValue: 'Todos los Planes'},
-  ];
-  antiguedad: Antiguedad[] = [
-    {value: 'Antiguos', viewValue: 'Antiguos'},
-    {value: 'Nuevos', viewValue: 'Nuevos'},
-    {value: 'Antiguos y Nuevos', viewValue: 'Antiguos y Nuevos'},
-  ];
+  carreras: string[] = ['Ingeniería de Sistemas','Psicología','General'];
+  periodos: string[] = ['V-2020','1-2020','I-2020','2-2020'];
+  planes: string[] = ['PSI-2011','PSI-2020','SIS-2009','SIS-2017','Todos los Planes'];
+  antiguedad: string[] = ['Antiguos','Nuevos','Antiguos y Nuevos'];
 
   //Obtener Valores de los Inputs en cada momento
   public sedeSelected:string = '';
-  public carreraSelected:string = '';
-  public periodoAcademicoSelected:string = '';
-  public planAcademicoSelected:string = '';
-  public antiguedadSelected:string = '';
+  public carreraSelected:string[] = [];
+  public periodoAcademicoSelected:string[] = [];
+  public planAcademicoSelected:string[] = [];
+  public antiguedadSelected:string[] = [];
 
   cambiarSede(event: MatSelectChange){
   	this.sedeSelected = event.value;
@@ -152,7 +113,9 @@ export class GenerosComponent implements OnInit {
     }
   }
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }

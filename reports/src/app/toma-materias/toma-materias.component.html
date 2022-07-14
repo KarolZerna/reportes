@@ -5,9 +5,9 @@
 <!-- sede, carrera, periodos academicos -->
 <mat-form-field appearance="fill">
   <mat-label>Sede:</mat-label>
-  <mat-select>
-    <mat-option *ngFor="let sede of sedes" [value]="sede.value">
-      {{sede.viewValue}}
+  <mat-select (selectionChange)=cambiarSede($event) multiple>
+    <mat-option *ngFor="let sede of sedes" [value]="sede">
+      {{sede}}
     </mat-option>
   </mat-select>
 </mat-form-field>
@@ -47,22 +47,4 @@
   </canvas>
 </div>
 
-<!-- <dx-chart
-  id="chart"
-  title="Daily Sales"
-  dataSource="https://js.devexpress.com/Demos/WidgetsGallery/JSDemos/data/simpleJSON.json"
-  [rotated]="true"
->
-  <dxi-series color="#79cac4" type="bar" argumentField="day" valueField="sales">
-    <dxo-label [visible]="true" backgroundColor="#c18e92"></dxo-label>
-  </dxi-series>
-  <dxo-argument-axis>
-    <dxo-label [customizeText]="customizeText"></dxo-label>
-  </dxo-argument-axis>
-  <dxi-value-axis>
-    <dxo-tick [visible]="false"></dxo-tick>
-    <dxo-label [visible]="false"></dxo-label>
-  </dxi-value-axis>
-  <dxo-export [enabled]="true"></dxo-export>
-  <dxo-legend [visible]="false"></dxo-legend>
-</dx-chart> -->
+<p>{{sedeSelected}}</p>

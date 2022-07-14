@@ -1,4 +1,14 @@
-var datos=[
+interface generos {
+    sede: string,
+    carrera: string,
+    periodoAcademico: string,
+    planAcademico: string,
+    antiguedad: string,
+    cantidadVarones: string,
+    cantidadMujeres: string,
+}
+
+var datos:generos[]=[
     {
         "sede": "Cochabamba",
         "carrera": "Ingeniería de Sistemas",
@@ -758,14 +768,28 @@ var datos=[
 ]
     
 
-function getJSON(sede:string, carrera:string, periodoAcademico:string, planAcademico:string, antiguedad:string){
-    var json = datos.
-        filter(generos =>generos.sede == sede).
-        filter(generos =>generos.carrera == carrera).
-        filter(generos =>generos.periodoAcademico == periodoAcademico).
-        filter(generos =>generos.planAcademico == planAcademico).
-        filter(generos =>generos.antiguedad == antiguedad);
-    return json;
+function getJSON(sede:string, carrera:string[], periodoAcademico:string[], planAcademico:string[], antiguedad:string[]){
+    
+    var jsonSede = datos.filter(generos =>generos.sede == sede);
+    var jsonCarreras:generos[] = [];
+    var jsonPeriodoAcademico:generos[] = [];
+    var jsonPlanAcademico:generos[] = [];
+    var listaJson:generos[] = [];
+
+    for(const indexCarrera in carrera){
+        jsonCarreras = jsonCarreras.concat(jsonSede.filter(json =>json.carrera == carrera[indexCarrera]));
+    }
+    for(const indexPeriodoAcademico in periodoAcademico){
+        jsonPeriodoAcademico = jsonPeriodoAcademico.concat(jsonCarreras.filter(json =>json.periodoAcademico == periodoAcademico[indexPeriodoAcademico]));
+    }
+    for(const indexPlanAcademico in planAcademico){
+        jsonPlanAcademico = jsonPlanAcademico.concat(jsonPeriodoAcademico.filter(json =>json.planAcademico == planAcademico[indexPlanAcademico]));
+    }
+    for(const indexAntiguedad in antiguedad){
+        listaJson = listaJson.concat(jsonPlanAcademico.filter(json =>json.antiguedad == antiguedad[indexAntiguedad]));
+    }
+    listaJson.sort((a, b) => a.carrera.localeCompare(b.carrera) || a.periodoAcademico.localeCompare(b.periodoAcademico));
+    return listaJson;
 }
 
 export default getJSON;
