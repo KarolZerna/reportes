@@ -5,7 +5,7 @@
 <!-- sede, carrera, periodos academicos -->
 <mat-form-field appearance="fill">
   <mat-label>Sede:</mat-label>
-  <mat-select>
+  <mat-select (selectionChange)=cambiarSede($event)>
     <mat-option *ngFor="let sede of sedes" [value]="sede.value">
       {{sede.viewValue}}
     </mat-option>
@@ -14,7 +14,7 @@
 
 <mat-form-field appearance="fill">
   <mat-label>Carreras:</mat-label>
-  <mat-select>
+  <mat-select (selectionChange)=cambiarCarrera($event)>
     <mat-option *ngFor="let carrera of carreras" [value]="carrera.value">
       {{carrera.viewValue}}
     </mat-option>
@@ -23,7 +23,7 @@
 
 <mat-form-field appearance="fill">
   <mat-label>Periodos Académicos:</mat-label>
-  <mat-select>
+  <mat-select (selectionChange)=cambiarPeriodoAcademico($event)>
     <mat-option *ngFor="let periodo of periodos" [value]="periodo.value">
       {{periodo.viewValue}}
     </mat-option>
@@ -32,7 +32,7 @@
 
 <mat-form-field appearance="fill">
     <mat-label>Planes Académicos:</mat-label>
-    <mat-select>
+    <mat-select (selectionChange)=cambiarPlanAcademico($event)>
       <mat-option *ngFor="let plan of planes" [value]="plan.value">
         {{plan.viewValue}}
       </mat-option>
@@ -41,9 +41,22 @@
 
   <mat-form-field appearance="fill">
     <mat-label>Antigüedad de los Estudiantes:</mat-label>
-    <mat-select>
+    <mat-select (selectionChange)=cambiarAntiguedad($event)>
       <mat-option *ngFor="let antiguedad of antiguedad" [value]="antiguedad.value">
         {{antiguedad.viewValue}}
       </mat-option>
     </mat-select>
   </mat-form-field>
+
+  <div width="30%" height="30%">
+    <canvas baseChart
+      [datasets]="barChartData"
+      [labels]="barChartLabels"
+      [colors]="barChartColors"
+      [legend]="barChartLegend"
+      [chartType]="barChartType"
+      [plugins]="barChartPlugins"
+      [options]="barChartOptions"
+    >
+    </canvas>
+  </div>
