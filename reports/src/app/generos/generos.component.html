@@ -5,7 +5,7 @@
 <!-- sede, carrera, periodos academicos -->
 <mat-form-field appearance="fill">
   <mat-label>Sede:</mat-label>
-  <mat-select (selectionChange)=cambiarSede($event)>
+  <mat-select [(value)]="sedeSelected" (selectionChange)=cambiarSede($event)>
     <mat-option *ngFor="let sede of sedes" [value]="sede.value">
       {{sede.viewValue}}
     </mat-option>
@@ -14,7 +14,7 @@
 
 <mat-form-field appearance="fill">
   <mat-label>Carreras:</mat-label>
-  <mat-select (selectionChange)=cambiarCarrera($event) multiple>
+  <mat-select [(value)]="carreraSelected" (selectionChange)=cambiarCarrera($event) multiple>
     <mat-option *ngFor="let carrera of carreras" [value]="carrera">
       {{carrera}}
     </mat-option>
@@ -23,7 +23,7 @@
 
 <mat-form-field appearance="fill">
   <mat-label>Periodos Académicos:</mat-label>
-  <mat-select (selectionChange)=cambiarPeriodoAcademico($event) multiple>
+  <mat-select [(value)]="periodoAcademicoSelected" (selectionChange)=cambiarPeriodoAcademico($event) multiple>
     <mat-option *ngFor="let periodo of periodos" [value]="periodo">
       {{periodo}}
     </mat-option>
@@ -32,7 +32,7 @@
 
 <mat-form-field appearance="fill">
     <mat-label>Planes Académicos:</mat-label>
-    <mat-select (selectionChange)=cambiarPlanAcademico($event) multiple>
+    <mat-select [(value)]="planAcademicoSelected" (selectionChange)=cambiarPlanAcademico($event) multiple>
       <mat-option *ngFor="let plan of planes" [value]="plan">
         {{plan}}
       </mat-option>
@@ -41,7 +41,7 @@
 
   <mat-form-field appearance="fill">
     <mat-label>Antigüedad de los Estudiantes:</mat-label>
-    <mat-select (selectionChange)=cambiarAntiguedad($event) multiple>
+    <mat-select [(value)]="antiguedadSelected" (selectionChange)=cambiarAntiguedad($event) multiple>
       <mat-option *ngFor="let antiguedad of antiguedad" [value]="antiguedad">
         {{antiguedad}}
       </mat-option>

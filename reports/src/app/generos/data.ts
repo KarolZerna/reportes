@@ -766,30 +766,5 @@ var datos:generos[]=[
         "cantidadMujeres": "76"
     }
 ]
-    
 
-function getJSON(sede:string, carrera:string[], periodoAcademico:string[], planAcademico:string[], antiguedad:string[]){
-    
-    var jsonSede = datos.filter(generos =>generos.sede == sede);
-    var jsonCarreras:generos[] = [];
-    var jsonPeriodoAcademico:generos[] = [];
-    var jsonPlanAcademico:generos[] = [];
-    var listaJson:generos[] = [];
-
-    for(const indexCarrera in carrera){
-        jsonCarreras = jsonCarreras.concat(jsonSede.filter(json =>json.carrera == carrera[indexCarrera]));
-    }
-    for(const indexPeriodoAcademico in periodoAcademico){
-        jsonPeriodoAcademico = jsonPeriodoAcademico.concat(jsonCarreras.filter(json =>json.periodoAcademico == periodoAcademico[indexPeriodoAcademico]));
-    }
-    for(const indexPlanAcademico in planAcademico){
-        jsonPlanAcademico = jsonPlanAcademico.concat(jsonPeriodoAcademico.filter(json =>json.planAcademico == planAcademico[indexPlanAcademico]));
-    }
-    for(const indexAntiguedad in antiguedad){
-        listaJson = listaJson.concat(jsonPlanAcademico.filter(json =>json.antiguedad == antiguedad[indexAntiguedad]));
-    }
-    listaJson.sort((a, b) => a.carrera.localeCompare(b.carrera) || a.periodoAcademico.localeCompare(b.periodoAcademico));
-    return listaJson;
-}
-
-export default getJSON;
+export {datos, generos};
