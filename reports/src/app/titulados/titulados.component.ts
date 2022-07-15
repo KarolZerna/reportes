@@ -3,7 +3,7 @@ import { RestTituladosService } from './rest-titulados.service';
 import { Titulados } from './tituladosClass';
 
 
-interface Sede {
+interface ValueFilterInterface {
   value: string;
   viewValue: string;
 }
@@ -14,12 +14,6 @@ interface Sede {
   styleUrls: ['./titulados.component.css']
 })
 export class TituladosComponent implements OnInit {
-  sedes: Sede[] = [
-    {value: 'LA PAZ', viewValue: 'Sede La Paz'},
-    {value: 'COCHABAMBA', viewValue: 'Sede Cochabamba'},
-    {value: 'TARIJA', viewValue: 'Sede Tarija'},
-  ];
-
 
   title = "Titulados with json"
   constructor(private rs : RestTituladosService ){}
@@ -49,10 +43,38 @@ export class TituladosComponent implements OnInit {
     )
   }
 
-  onselect(item: any) {
+  sedes: ValueFilterInterface[] = [
+    {value: 'LA PAZ', viewValue: 'Sede La Paz'},
+    {value: 'COCHABAMBA', viewValue: 'Sede Cochabamba'},
+    {value: 'TARIJA', viewValue: 'Sede Tarija'},
+    {value: 'SANTA CRUZ', viewValue: 'Sede Santa Cruz'},
+  ];
+  carreras: ValueFilterInterface[] = [
+    {value: 'INGENIERÍA DE SISTEMAS', viewValue: 'INGENIERÍA DE SISTEMAS'},
+    {value: 'ADMINISTRACIÓN DE EMPRESAS', viewValue: 'ADMINISTRACIÓN DE EMPRESAS'},
+    {value: 'PSICOLOGÍA', viewValue: 'PSICOLOGÍA'},
+    {value: 'INGENIERÍA CIVIL', viewValue: 'INGENIERÍA CIVIL'},
+    {value: 'INGENIERÍA QUÍMICA', viewValue: 'INGENIERÍA QUÍMICA'},
+  ];
+  periodos: ValueFilterInterface[] = [
+    {value: '2006', viewValue: '2006'},
+    {value: '2010', viewValue: '2010'},
+    {value: '2009', viewValue: '2009'},
+    {value: '2006', viewValue: '2006'},
+    {value: '2012', viewValue: '2012'},
+    {value: '2001', viewValue: '2001'},
+  ];
+
+  filterBySede(item: any) {
     console.log("el valor ingresado fue : " + item.value);
-    console.log("ANTES DE FILTRAR : " + this.titulados);
-    this.titulados = this.completedDataTitulados.filter( titulado => titulado.sede == item.value)
-    console.log("DESPUES DE FILTRAR: " + this.titulados);
+    this.titulados = this.completedDataTitulados.filter(titulado => titulado.sede == item.value)
+  }
+  filterByCarrera(item: any) {
+    console.log("el valor ingresado fue : " + item.value);
+    this.titulados = this.titulados.filter(titulado => titulado.carrera == item.value)
+  }
+  filterByPeriodo(item: any) {
+    console.log("el valor ingresado fue : " + item.value);
+    this.titulados = this.titulados.filter(titulado => titulado.planAcademico == item.value)
   }
 }
