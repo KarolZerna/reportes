@@ -1,5 +1,16 @@
 <p>titulados works!</p>
 <h1>TABLE using JSON!</h1>
+
+<mat-form-field appearance="fill">
+    <mat-label>Sede:</mat-label>
+    <mat-select (selectionChange)="onselect($event)">
+      <mat-option *ngFor="let sede of sedes" [value]="sede.value">
+        {{sede.viewValue}}
+      </mat-option>
+    </mat-select>
+</mat-form-field>
+
+
 <hr>
 <table id="titulados">
     <tr>
