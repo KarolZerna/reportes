@@ -3,13 +3,30 @@
 
 <mat-form-field appearance="fill">
     <mat-label>Sede:</mat-label>
-    <mat-select (selectionChange)="onselect($event)">
+    <mat-select (selectionChange)="filterBySede($event)">
       <mat-option *ngFor="let sede of sedes" [value]="sede.value">
         {{sede.viewValue}}
       </mat-option>
     </mat-select>
 </mat-form-field>
 
+<mat-form-field appearance="fill">
+    <mat-label>Carrera:</mat-label>
+    <mat-select (selectionChange)="filterByCarrera($event)">
+      <mat-option *ngFor="let carrera of carreras" [value]="carrera.value">
+        {{carrera.viewValue}}
+      </mat-option>
+    </mat-select>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+    <mat-label>Periodo Académico:</mat-label>
+    <mat-select (selectionChange)="filterByPeriodo($event)">
+      <mat-option *ngFor="let periodo of periodos" [value]="periodo.value">
+        {{periodo.viewValue}}
+      </mat-option>
+    </mat-select>
+</mat-form-field>
 
 <hr>
 <table id="titulados">
