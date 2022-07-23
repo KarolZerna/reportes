@@ -17,6 +17,7 @@ import { TomaMateriasComponent } from './toma-materias/toma-materias.component';
 import { GenerosComponent } from './generos/generos.component'
 import { TituladosComponent } from './titulados/titulados.component'
 import { ResumenComponent } from './resumen/resumen.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ResumenComponent } from './resumen/resumen.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialExampleModule,
-    ChartsModule
+    ChartsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
