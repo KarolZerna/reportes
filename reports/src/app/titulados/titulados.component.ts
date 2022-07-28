@@ -123,6 +123,7 @@ export class TituladosComponent implements OnInit {
     let [careersFiltered, quantityCareers, listPlans] = this.filterDataAccordingSede(item.value)
     this.listCareers = careersFiltered;
     this.plansSelected = listPlans;
+    this.careerSelected = 'all'
     this.updateOptionsInputs_careersAndPlans(careersFiltered,listPlans)
     this.loadDataGraph_withCareersFiltered(careersFiltered,quantityCareers)
   }

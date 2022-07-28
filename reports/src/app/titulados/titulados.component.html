@@ -9,7 +9,7 @@
 
 <mat-form-field appearance="fill">
     <mat-label>Carrera:</mat-label>
-    <mat-select (selectionChange)="filterByCarrera($event)">
+    <mat-select [(value)]="careerSelected" (selectionChange)="filterByCarrera($event)">
       <mat-option *ngFor="let carrera of carreras" [value]="carrera.value">
         {{carrera.viewValue}}
       </mat-option>
@@ -17,8 +17,8 @@
 </mat-form-field>
 
 <mat-form-field appearance="fill">
-    <mat-label>Periodo Académico:</mat-label>
-    <mat-select (selectionChange)="filterByPlanAcademico($event)" multiple>
+    <mat-label>Plan Académico:</mat-label>
+    <mat-select [(value)]="plansSelected" (selectionChange)="filterByPlanAcademico($event)" multiple>
       <mat-option *ngFor="let periodo of periodos" [value]="periodo.value">
         {{periodo.viewValue}}
       </mat-option>
