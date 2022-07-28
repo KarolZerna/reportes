@@ -47,90 +47,9 @@ export class TituladosComponent implements OnInit {
     )
   }
 
-  sedes: ValueFilterInterface[] = [
-    {value: 'LA PAZ', viewValue: 'Sede La Paz'},
-    {value: 'COCHABAMBA', viewValue: 'Sede Cochabamba'},
-    {value: 'TARIJA', viewValue: 'Sede Tarija'},
-    {value: 'SANTA CRUZ', viewValue: 'Sede Santa Cruz'},
-  ];
-  carreras: ValueFilterInterface[] = [
-    {value: 'INGENIERÍA DE SISTEMAS', viewValue: 'INGENIERÍA DE SISTEMAS'},
-    {value: 'ADMINISTRACIÓN DE EMPRESAS', viewValue: 'ADMINISTRACIÓN DE EMPRESAS'},
-    {value: 'PSICOLOGÍA', viewValue: 'PSICOLOGÍA'},
-    {value: 'INGENIERÍA CIVIL', viewValue: 'INGENIERÍA CIVIL'},
-    {value: 'INGENIERÍA QUÍMICA', viewValue: 'INGENIERÍA QUÍMICA'},
-  ];
-  periodos: ValueFilterInterface[] = [
-    {value: '----', viewValue: 'Todos'},
-    {value: '2006', viewValue: '2006'},
-    {value: '2010', viewValue: '2010'},
-    {value: '2009', viewValue: '2009'},
-    {value: '2006', viewValue: '2006'},
-    {value: '2012', viewValue: '2012'},
-    {value: '2001', viewValue: '2001'},
-  ];
-
-  updateOptionsInputs_careersAndPlans( listCareers : any , listPlans : any){
-    let newcarreras: ValueFilterInterface[] = []
-    let newPlans: ValueFilterInterface[] = []
-    for( let index in listCareers){
-      newcarreras.push({ value: listCareers[index] , viewValue: listCareers[index] });
-      // newcarreras[listCareers[index]] = listCareers[index];
-    }
-    for( let index in listPlans){
-      newPlans.push({ value: listPlans[index] , viewValue: listPlans[index] });
-      // newcarreras[listCareers[index]] = listCareers[index];
-    }
-    this.carreras = newcarreras;
-    this.periodos = newPlans;
-  }
-
-  sedeSelected : string = 'all';
-  careerSelected : string = 'all';
-  plansSelected : string [] = [] ;
-
-  listCareers : any [] = [] ;
-
-  filterBySede(item: any) {
-    console.log("el valor SEDE ingresado fue : " + item.value);
-    this.sedeSelected = item.value;
-    // to show table
-    this.titulados = this.completedDataTitulados.filter(titulado => titulado.sede == item.value)
-
-    // this.loadDataGraph()
-    // To download for graph
-    let [careersFiltered, quantityCareers, listPlans] = this.filterAccordingSede_Carreras(item.value)
-    this.listCareers = careersFiltered;
-    this.updateOptionsInputs_careersAndPlans(careersFiltered,listPlans)
-    this.loadDataGraph_withCareersFiltered(careersFiltered,quantityCareers)
-  }
-  filterByCarrera(item: any) {
-    console.log("el valor CARRERA ingresado fue : " + item.value);
-    this.careerSelected = item.value;
-    // to show table
-    this.titulados = this.completedDataTitulados.filter(titulado => titulado.carrera == item.value)
-    // this.loadDataGraph()
-    let [listaAcademicPlans,quantityAcademicPlans] = this.filterAccordingCareer_Plans( item.value)
-    console.log( "listaAcademicPlans: " + listaAcademicPlans);
-    console.log( "quantityAcademicPlans: " + quantityAcademicPlans );
-    this.loadDataGraph_withOneCareer(listaAcademicPlans,quantityAcademicPlans);
-  }
-  filterByPlanAcademico(item: any) {
-    console.log("el valor ingresado fue : " + item.value);
-    this.plansSelected = item.value;
-    this.titulados = [];
-    for ( let index in this.plansSelected ){
-      this.titulados = this.titulados.concat(this.completedDataTitulados.filter(titulado => titulado.planAcademico == this.plansSelected[index] && titulado.sede == this.sedeSelected));
-    }
-    // download data for academic plan
-    let dataPlansAcademics = this.getDataQuantityPlans(this.titulados);
-    this.loadDataGraph_withPlansAcademics(dataPlansAcademics)
-  }
-
+  // Basic settings for graph
   public colores = ['#FFA500','#052854'];
 	public labels = ["Varones","Mujeres"];
-
-
   public barChartData: ChartDataSets[] = [];
   public barChartLabels: Label[] = [];
   public barChartColors: Color[] = [];
@@ -142,10 +61,111 @@ export class TituladosComponent implements OnInit {
       yAxes: [{display: true, ticks: {beginAtZero: true}}]
     }
   };
+
+
+  sedes: ValueFilterInterface[] = [
+    {value: 'LA PAZ', viewValue: 'Sede La Paz'},
+    {value: 'COCHABAMBA', viewValue: 'Sede Cochabamba'},
+    {value: 'TARIJA', viewValue: 'Sede Tarija'},
+    {value: 'SANTA CRUZ', viewValue: 'Sede Santa Cruz'},
+  ];
+  carreras: ValueFilterInterface[] = [
+    {value: '-', viewValue: 'Elige una Sede'}
+    /*
+    {value: 'ADMINISTRACIÓN DE EMPRESAS', viewValue: 'ADMINISTRACIÓN DE EMPRESAS'},
+    {value: 'PSICOLOGÍA', viewValue: 'PSICOLOGÍA'},
+    {value: 'INGENIERÍA CIVIL', viewValue: 'INGENIERÍA CIVIL'},
+    {value: 'INGENIERÍA QUÍMICA', viewValue: 'INGENIERÍA QUÍMICA'},*/
+  ];
+  periodos: ValueFilterInterface[] = [
+    {value: '-', viewValue: 'Todos'},
+    /*
+    {value: '2006', viewValue: '2006'},
+    {value: '2010', viewValue: '2010'},
+    {value: '2009', viewValue: '2009'},
+    {value: '2006', viewValue: '2006'},
+    {value: '2012', viewValue: '2012'},
+    {value: '2001', viewValue: '2001'},*/
+  ];
+
+  updateOptionsInputs_careersAndPlans( listCareers : any , listPlans : any){
+    let newcarreras: ValueFilterInterface[] = []
+    let newPlans: ValueFilterInterface[] = []
+    for( let index in listCareers){
+      newcarreras.push({ value: listCareers[index] , viewValue: listCareers[index] });
+    }
+    for( let index in listPlans){
+      newPlans.push({ value: listPlans[index] , viewValue: listPlans[index] });
+    }
+    this.carreras = newcarreras;
+    this.periodos = newPlans;
+  }
+  updateOptionsInputs_onlyPlans(listPlans : any){
+    let newPlans: ValueFilterInterface[] = []
+    for( let index in listPlans){
+      newPlans.push({ value: listPlans[index] , viewValue: listPlans[index] });
+    }
+    this.periodos = newPlans;
+  }
+
+  sedeSelected : string = 'all';
+  careerSelected : string = 'all';
+  plansSelected : any [] = [] ;
+  listCareers : any [] = [] ;
+
+  filterBySede(item: any) {
+    console.log("el valor SEDE ingresado fue : " + item.value);
+    this.sedeSelected = item.value;
+    // to show table
+    this.titulados = this.completedDataTitulados.filter(titulado => titulado.sede == item.value)
+
+    // To download for graph
+    let [careersFiltered, quantityCareers, listPlans] = this.filterDataAccordingSede(item.value)
+    this.listCareers = careersFiltered;
+    this.plansSelected = listPlans;
+    this.updateOptionsInputs_careersAndPlans(careersFiltered,listPlans)
+    this.loadDataGraph_withCareersFiltered(careersFiltered,quantityCareers)
+  }
+  filterByCarrera(item: any) {
+    console.log("el valor CARRERA ingresado fue : " + item.value);
+    this.careerSelected = item.value;
+    this.listCareers = [item.value ]
+    // to show table
+    if(  this.sedeSelected == 'all'){
+      this.titulados = this.completedDataTitulados.filter(titulado => titulado.carrera == item.value)
+    }else{
+      this.titulados = this.completedDataTitulados.filter(titulado => titulado.carrera == item.value && titulado.sede == this.sedeSelected)
+    }
+
+    // To download data for graph
+    let [listaAcademicPlans,quantityAcademicPlans] = this.filterDataAccordingCareers(item.value)
+    this.plansSelected = listaAcademicPlans;
+    this.updateOptionsInputs_onlyPlans(this.plansSelected)
+    this.loadDataGraph_withOneCareer(listaAcademicPlans,quantityAcademicPlans);
+  }
+
+  filterByPlanAcademico(item: any) {
+    console.log("el valor ingresado fue : " + item.value);
+    this.plansSelected = item.value;
+    this.titulados = [];
+
+    if(  this.careerSelected == 'all'){
+      for ( let index in this.plansSelected ){
+        this.titulados = this.titulados.concat(this.completedDataTitulados.filter(titulado => titulado.planAcademico == this.plansSelected[index] && titulado.sede == this.sedeSelected));
+      }
+    }else{
+      for ( let index in this.plansSelected ){
+        this.titulados = this.titulados.concat(this.completedDataTitulados.filter(titulado => titulado.planAcademico == this.plansSelected[index] && titulado.sede == this.sedeSelected && titulado.carrera == this.careerSelected));
+      }
+    }
+
+    // To download data for graph
+    let dataPlansAcademics = this.filterDataAccordingAcademicPlans(this.titulados);
+    this.loadDataGraph_withPlansAcademics(dataPlansAcademics)
+  }
+
+
   loadDataGraph_withCareersFiltered(careersFiltered : any,quantityCareers: any){
-    // Try my own of graph
-    var labelDinamic  = 'Cantidad de estudiantes en : ' + this.sedeSelected ;
-    console.log("el valor de labelDinamic : " + labelDinamic);
     this.barChartData  = [
       { data: quantityCareers , label: 'Total de Titulados'}
     ];
@@ -188,7 +208,8 @@ export class TituladosComponent implements OnInit {
     this.barChartLegend = true;
     this.barChartPlugins = [];
   }
-  loadDataGraph(){
+
+  loadDataGraph_basicExample(){
     // Try my own of graph
     var labelDinamic  = 'Cantidad de estudiantes en : ' ;
     console.log("el valor de labelDinamic : " + labelDinamic);
@@ -208,7 +229,7 @@ export class TituladosComponent implements OnInit {
     this.barChartPlugins = [];
   }
 
-  filterAccordingSede_Carreras( sedeSelected : string){
+  filterDataAccordingSede( sedeSelected : string){
     let TituladosSede = this.completedDataTitulados.filter(titulado => titulado.sede == sedeSelected) ;
     let listaCarreras = [...new Set(TituladosSede.map(json => json.carrera))];
     let listaPlans= [...new Set(TituladosSede.map(json => json.planAcademico))];
@@ -219,7 +240,8 @@ export class TituladosComponent implements OnInit {
     }
    return [listaCarreras,quantityCarreras,listaPlans];
   }
-  filterAccordingCareer_Plans( careerSelected : string){
+
+  filterDataAccordingCareers( careerSelected : string){
     let academicPlans = this.completedDataTitulados.filter(titulado => titulado.sede == this.sedeSelected && titulado.carrera == careerSelected) ;
     let listaAcademicPlans = [...new Set(academicPlans.map(json => json.planAcademico))];
     let quantityAcademicPlans = [];
@@ -229,8 +251,7 @@ export class TituladosComponent implements OnInit {
    return [listaAcademicPlans,quantityAcademicPlans];
   }
 
-
-  getDataQuantityPlans(dataFiltered : Titulados[]){
+  filterDataAccordingAcademicPlans(dataFiltered : Titulados[]){
     let quantity ;
     let dataOnePlans = [] ;
     let data_plans  = [];
