@@ -1,4 +1,16 @@
-<p>titulados works!</p>
+<div width="30%" height="30%">
+  <canvas baseChart
+    [datasets]="barChartData"
+    [labels]="barChartLabels"
+    [colors]="barChartColors"
+    [legend]="barChartLegend"
+    [chartType]="barChartType"
+    [plugins]="barChartPlugins"
+    [options]="barChartOptions"
+  >
+  </canvas>
+</div>
+
 <h1>TABLE using JSON!</h1>
 
 <mat-form-field appearance="fill">
@@ -21,7 +33,7 @@
 
 <mat-form-field appearance="fill">
     <mat-label>Periodo Académico:</mat-label>
-    <mat-select (selectionChange)="filterByPeriodo($event)">
+    <mat-select (selectionChange)="filterByPlanAcademico($event)">
       <mat-option *ngFor="let periodo of periodos" [value]="periodo.value">
         {{periodo.viewValue}}
       </mat-option>
