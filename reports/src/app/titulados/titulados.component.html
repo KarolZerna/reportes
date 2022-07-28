@@ -1,18 +1,3 @@
-<div width="30%" height="30%">
-  <canvas baseChart
-    [datasets]="barChartData"
-    [labels]="barChartLabels"
-    [colors]="barChartColors"
-    [legend]="barChartLegend"
-    [chartType]="barChartType"
-    [plugins]="barChartPlugins"
-    [options]="barChartOptions"
-  >
-  </canvas>
-</div>
-
-<h1>TABLE using JSON!</h1>
-
 <mat-form-field appearance="fill">
     <mat-label>Sede:</mat-label>
     <mat-select (selectionChange)="filterBySede($event)">
@@ -33,12 +18,27 @@
 
 <mat-form-field appearance="fill">
     <mat-label>Periodo Académico:</mat-label>
-    <mat-select (selectionChange)="filterByPlanAcademico($event)">
+    <mat-select (selectionChange)="filterByPlanAcademico($event)" multiple>
       <mat-option *ngFor="let periodo of periodos" [value]="periodo.value">
         {{periodo.viewValue}}
       </mat-option>
     </mat-select>
 </mat-form-field>
+
+<div width="30%" height="30%">
+  <canvas baseChart
+    [datasets]="barChartData"
+    [labels]="barChartLabels"
+    [colors]="barChartColors"
+    [legend]="barChartLegend"
+    [chartType]="barChartType"
+    [plugins]="barChartPlugins"
+    [options]="barChartOptions"
+  >
+  </canvas>
+</div>
+
+<label> Table </label>
 
 <hr>
 <table id="titulados">

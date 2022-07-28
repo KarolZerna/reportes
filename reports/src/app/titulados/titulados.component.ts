@@ -25,13 +25,12 @@ export class TituladosComponent implements OnInit {
 
   constructor(private rs : RestTituladosService ){}
 
-  columns = ["sede","grado","carrera","carnetEstudiante","planAcademico","cantidadSemestres","tipoTitulacion","urlTrabajoTitulacion","estado","informacionEmpleo"];
-  index : (keyof Titulados) [] = ["sede","grado","carrera","carnetEstudiante","planAcademico","cantidadSemestres","tipoTitulacion","urlTrabajoTitulacion","estado","informacionEmpleo"];
-
-
+  columns = ["sede","grado","carrera","carnetEstudiante","planAcademico","cantidadSemestres","tipoTitulacion","urlTrabajoTitulacion","estado"];
+  // "informacionEmpleo"
+  index : (keyof Titulados) [] = ["sede","grado","carrera","carnetEstudiante","planAcademico","cantidadSemestres","tipoTitulacion","urlTrabajoTitulacion","estado"];
+  
   titulados : Titulados [] = [] ;
   completedDataTitulados : Titulados [] = [] ;
-  idChar  = document.getElementById("bar-chart") as HTMLCanvasElement
   ngOnInit(): void {
     this.rs.getTitulados().subscribe
     (
@@ -46,10 +45,6 @@ export class TituladosComponent implements OnInit {
         console.log("Error Occured : " + error);
       }
     )
-
-
-    
-
   }
 
   sedes: ValueFilterInterface[] = [
@@ -75,28 +70,61 @@ export class TituladosComponent implements OnInit {
     {value: '2001', viewValue: '2001'},
   ];
 
-  optionSelected : string = '----';
+  updateOptionsInputs_careersAndPlans( listCareers : any , listPlans : any){
+    let newcarreras: ValueFilterInterface[] = []
+    let newPlans: ValueFilterInterface[] = []
+    for( let index in listCareers){
+      newcarreras.push({ value: listCareers[index] , viewValue: listCareers[index] });
+      // newcarreras[listCareers[index]] = listCareers[index];
+    }
+    for( let index in listPlans){
+      newPlans.push({ value: listPlans[index] , viewValue: listPlans[index] });
+      // newcarreras[listCareers[index]] = listCareers[index];
+    }
+    this.carreras = newcarreras;
+    this.periodos = newPlans;
+  }
+
+  sedeSelected : string = 'all';
+  careerSelected : string = 'all';
+  plansSelected : string [] = [] ;
+
+  listCareers : any [] = [] ;
+
   filterBySede(item: any) {
-    console.log("el valor ingresado fue : " + item.value);
-    this.optionSelected = item.value;
+    console.log("el valor SEDE ingresado fue : " + item.value);
+    this.sedeSelected = item.value;
+    // to show table
     this.titulados = this.completedDataTitulados.filter(titulado => titulado.sede == item.value)
-    //this.loadDataGraph()
-    let [careersFiltered, quantityCareers] = this.filterAccordingSede_Carreras(item.value)
-    console.log( "careersFiltered: " + careersFiltered )
-    console.log( "quantityCareers: " + quantityCareers )
+
+    // this.loadDataGraph()
+    // To download for graph
+    let [careersFiltered, quantityCareers, listPlans] = this.filterAccordingSede_Carreras(item.value)
+    this.listCareers = careersFiltered;
+    this.updateOptionsInputs_careersAndPlans(careersFiltered,listPlans)
     this.loadDataGraph_withCareersFiltered(careersFiltered,quantityCareers)
   }
   filterByCarrera(item: any) {
-    console.log("el valor ingresado fue : " + item.value);
-    this.optionSelected = item.value;
+    console.log("el valor CARRERA ingresado fue : " + item.value);
+    this.careerSelected = item.value;
+    // to show table
     this.titulados = this.completedDataTitulados.filter(titulado => titulado.carrera == item.value)
-    this.loadDataGraph()
+    // this.loadDataGraph()
+    let [listaAcademicPlans,quantityAcademicPlans] = this.filterAccordingCareer_Plans( item.value)
+    console.log( "listaAcademicPlans: " + listaAcademicPlans);
+    console.log( "quantityAcademicPlans: " + quantityAcademicPlans );
+    this.loadDataGraph_withOneCareer(listaAcademicPlans,quantityAcademicPlans);
   }
   filterByPlanAcademico(item: any) {
     console.log("el valor ingresado fue : " + item.value);
-    this.optionSelected = item.value;
-    this.titulados = this.completedDataTitulados.filter(titulado => titulado.planAcademico == item.value);
-    this.loadDataGraph()
+    this.plansSelected = item.value;
+    this.titulados = [];
+    for ( let index in this.plansSelected ){
+      this.titulados = this.titulados.concat(this.completedDataTitulados.filter(titulado => titulado.planAcademico == this.plansSelected[index] && titulado.sede == this.sedeSelected));
+    }
+    // download data for academic plan
+    let dataPlansAcademics = this.getDataQuantityPlans(this.titulados);
+    this.loadDataGraph_withPlansAcademics(dataPlansAcademics)
   }
 
   public colores = ['#FFA500','#052854'];
@@ -116,7 +144,7 @@ export class TituladosComponent implements OnInit {
   };
   loadDataGraph_withCareersFiltered(careersFiltered : any,quantityCareers: any){
     // Try my own of graph
-    var labelDinamic  = 'Cantidad de estudiantes en : ' + this.optionSelected ;
+    var labelDinamic  = 'Cantidad de estudiantes en : ' + this.sedeSelected ;
     console.log("el valor de labelDinamic : " + labelDinamic);
     this.barChartData  = [
       { data: quantityCareers , label: 'Total de Titulados'}
@@ -131,10 +159,38 @@ export class TituladosComponent implements OnInit {
     this.barChartLegend = true;
     this.barChartPlugins = [];
   }
+  
+  loadDataGraph_withOneCareer(listaAcademicPlans: any ,quantityAcademicPlans: any){
+    // Try my own of graph
+    this.barChartData  = [
+      { data: quantityAcademicPlans , label: 'Total de Titulados'}
+    ];
+    this.barChartLabels= listaAcademicPlans ;
+    this.barChartColors = [
+      {
+        borderColor: 'black',
+        backgroundColor: 'rgba(155,255,0,0.28)',
+      },
+    ];
+    this.barChartLegend = true;
+    this.barChartPlugins = [];
+  }
 
+  loadDataGraph_withPlansAcademics( dataPlansAcademics : any){
+    this.barChartData  = dataPlansAcademics;
+    this.barChartLabels= this.listCareers;
+    this.barChartColors = [
+      {
+        borderColor: 'black',
+        backgroundColor: 'rgba(155,255,0,0.28)',
+      },
+    ];
+    this.barChartLegend = true;
+    this.barChartPlugins = [];
+  }
   loadDataGraph(){
     // Try my own of graph
-    var labelDinamic  = 'Cantidad de estudiantes en : ' + this.optionSelected ;
+    var labelDinamic  = 'Cantidad de estudiantes en : ' ;
     console.log("el valor de labelDinamic : " + labelDinamic);
     this.barChartData  = [
       { data: [80,90,98,87,49,75], label: labelDinamic},
@@ -155,12 +211,40 @@ export class TituladosComponent implements OnInit {
   filterAccordingSede_Carreras( sedeSelected : string){
     let TituladosSede = this.completedDataTitulados.filter(titulado => titulado.sede == sedeSelected) ;
     let listaCarreras = [...new Set(TituladosSede.map(json => json.carrera))];
+    let listaPlans= [...new Set(TituladosSede.map(json => json.planAcademico))];
     let quantityCarreras = [];
     for( let index in listaCarreras){
       console.log("listaCarreras" + listaCarreras[index] );
       quantityCarreras.push(TituladosSede.filter( titulado => titulado.carrera == listaCarreras[index] ).length);
     }
-   return [listaCarreras,quantityCarreras];
+   return [listaCarreras,quantityCarreras,listaPlans];
   }
+  filterAccordingCareer_Plans( careerSelected : string){
+    let academicPlans = this.completedDataTitulados.filter(titulado => titulado.sede == this.sedeSelected && titulado.carrera == careerSelected) ;
+    let listaAcademicPlans = [...new Set(academicPlans.map(json => json.planAcademico))];
+    let quantityAcademicPlans = [];
+    for( let index in listaAcademicPlans){
+      quantityAcademicPlans.push(academicPlans.filter( titulado => titulado.planAcademico == listaAcademicPlans[index] ).length);
+    }
+   return [listaAcademicPlans,quantityAcademicPlans];
+  }
+
+
+  getDataQuantityPlans(dataFiltered : Titulados[]){
+    let quantity ;
+    let dataOnePlans = [] ;
+    let data_plans  = [];
+    for ( let indexPlan in this.plansSelected) 
+    {
+      dataOnePlans = [] ;
+      for (let indexCareer in this.listCareers){
+        quantity = dataFiltered.filter(t => t.planAcademico == this.plansSelected[indexPlan] && t.carrera == this.listCareers[indexCareer]).length;
+        dataOnePlans.push(quantity);
+      }
+      data_plans.push({ label: this.plansSelected[indexPlan] , data: dataOnePlans });
+    }
+    return data_plans
+  }
+
 
 }
