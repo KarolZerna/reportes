@@ -38,6 +38,18 @@
   </canvas>
 </div>
 
+<div width="30%" height="30%">
+  <canvas baseChart
+    [datasets]="pieChartData"
+    [labels]="pieChartLabels"
+    [legend]="pieChartLegend"
+    [chartType]="pieChartType"
+    [plugins]="pieChartPlugins"
+    [options]="pieChartOptions"
+  >
+  </canvas>
+</div>
+
 <label> Table </label>
 
 <hr>

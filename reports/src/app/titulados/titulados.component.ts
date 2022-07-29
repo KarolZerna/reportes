@@ -47,9 +47,8 @@ export class TituladosComponent implements OnInit {
     )
   }
 
-  // Basic settings for graph
+  // Basic settings for bar graph
   public colores = ['#FFA500','#052854'];
-	public labels = ["Varones","Mujeres"];
   public barChartData: ChartDataSets[] = [];
   public barChartLabels: Label[] = [];
   public barChartColors: Color[] = [];
@@ -57,6 +56,20 @@ export class TituladosComponent implements OnInit {
   public barChartType: ChartType = 'bar';
   public barChartPlugins = [];
   public barChartOptions = {
+    scales: {
+      yAxes: [{display: true, ticks: {beginAtZero: true}}]
+    }
+  };
+
+  // Basic settings for pie graph
+  public pie_colores = ['#FFA500','#052854'];
+  public pieChartData: ChartDataSets[] = [];
+  public pieChartLabels: Label[] = [];
+  public pieChartColors: Color[] = [];
+  public pieChartLegend = true;
+  public pieChartType: ChartType = 'pie';
+  public pieChartPlugins = [];
+  public pieChartOptions = {
     scales: {
       yAxes: [{display: true, ticks: {beginAtZero: true}}]
     }
@@ -126,7 +139,12 @@ export class TituladosComponent implements OnInit {
     this.careerSelected = 'all'
     this.updateOptionsInputs_careersAndPlans(careersFiltered,listPlans)
     this.loadDataGraph_withCareersFiltered(careersFiltered,quantityCareers)
-  }
+
+    // For pie graph
+    let dataQuantityTypesTitulados = this.filterDataforPieGraph(this.titulados)
+    this.loadDataPieGraph(dataQuantityTypesTitulados )
+
+    }
   filterByCarrera(item: any) {
     console.log("el valor CARRERA ingresado fue : " + item.value);
     this.careerSelected = "specific";
@@ -150,6 +168,10 @@ export class TituladosComponent implements OnInit {
     // To download data for graph
     let dataPlansAcademics = this.filterDataAccordingAcademicPlans(this.titulados);
     this.loadDataGraph_withPlansAcademics(dataPlansAcademics)
+
+    // For pie graph
+    let dataQuantityTypesTitulados = this.filterDataforPieGraph(this.titulados)
+    this.loadDataPieGraph(dataQuantityTypesTitulados )
   }
 
   filterByPlanAcademico(item: any) {
@@ -173,6 +195,10 @@ export class TituladosComponent implements OnInit {
     // To download data for graph
     let dataPlansAcademics = this.filterDataAccordingAcademicPlans(this.titulados);
     this.loadDataGraph_withPlansAcademics(dataPlansAcademics)
+
+    // For pie graph
+    let dataQuantityTypesTitulados = this.filterDataforPieGraph(this.titulados)
+    this.loadDataPieGraph(dataQuantityTypesTitulados )
   }
 
 
@@ -218,6 +244,21 @@ export class TituladosComponent implements OnInit {
     ];
     this.barChartLegend = true;
     this.barChartPlugins = [];
+  }
+
+  loadDataPieGraph(dataQuantityTypesTitulados : any){
+    this.pieChartData  = [
+      { data: dataQuantityTypesTitulados, label: 'Cant. de tipo de graduación :'}
+    ];
+    this.pieChartLabels= ["TESIS","TRABAJO DE GRADO","EXCELENCIA ACADÉMICA"];
+    this.pieChartColors = [
+      {
+        borderColor: 'black',
+        backgroundColor: 'rgba(155,255,0,0.28)',
+      },
+    ];
+    this.pieChartLegend = true;
+    this.pieChartPlugins = [];
   }
 
   loadDataGraph_basicExample(){
@@ -278,5 +319,12 @@ export class TituladosComponent implements OnInit {
     return data_plans
   }
 
-
+  filterDataforPieGraph(dataFiltered : Titulados[]){
+    let dataQuantity = [] ;
+    let typeTitulacion = ["TESIS","TRABAJO DE GRADO","EXCELENCIA ACADÉMICA"];
+    for (let index in typeTitulacion ){
+      dataQuantity.push( dataFiltered.filter(t => t.tipoTitulacion ==  typeTitulacion [index]).length)
+    }
+    return dataQuantity;
+  }
 }
