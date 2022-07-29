@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ChartsModule } from 'ng2-charts';
+import { ChartType } from 'chart.js';
+ 
+
 
 import {MaterialExampleModule} from './material.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +17,7 @@ import { TomaMateriasComponent } from './toma-materias/toma-materias.component';
 import { GenerosComponent } from './generos/generos.component'
 import { TituladosComponent } from './titulados/titulados.component'
 import { ResumenComponent } from './resumen/resumen.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,9 +35,13 @@ import { ResumenComponent } from './resumen/resumen.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialExampleModule
+    MaterialExampleModule,
+    ChartsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  public barChartType: ChartType = "bar";
+}

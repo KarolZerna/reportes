@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serverAPI": "json-server --watch server/db.json --port 3000"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +20,9 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@devexpress/dx-chart-core": "^3.0.3",
+    "chart.js": "^2.9.4",
+    "ng2-charts": "^2.3.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

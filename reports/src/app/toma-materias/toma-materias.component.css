@@ -7,3 +7,19 @@
     font-size: 20px;
     border-radius: 10px;
   }
+
+
+  .title {
+    height: 7%;
+    background: #052854;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title p {
+    color: #ddd;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: medium;
+    text-align: center;
+  }
