@@ -9,7 +9,7 @@
 
 <mat-form-field appearance="fill">
     <mat-label>Carrera:</mat-label>
-    <mat-select [(value)]="careerSelected" (selectionChange)="filterByCarrera($event)">
+    <mat-select [(value)]="listCareers" (selectionChange)="filterByCarrera($event)" multiple>
       <mat-option *ngFor="let carrera of carreras" [value]="carrera.value">
         {{carrera.viewValue}}
       </mat-option>

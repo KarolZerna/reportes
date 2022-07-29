@@ -129,20 +129,27 @@ export class TituladosComponent implements OnInit {
   }
   filterByCarrera(item: any) {
     console.log("el valor CARRERA ingresado fue : " + item.value);
-    this.careerSelected = item.value;
-    this.listCareers = [item.value ]
+    this.careerSelected = "specific";
+    this.listCareers = item.value
+    let aux_dataTitulados : Titulados [] = [];
     // to show table
-    if(  this.sedeSelected == 'all'){
-      this.titulados = this.completedDataTitulados.filter(titulado => titulado.carrera == item.value)
-    }else{
-      this.titulados = this.completedDataTitulados.filter(titulado => titulado.carrera == item.value && titulado.sede == this.sedeSelected)
+    for (let index in this.listCareers){  
+      aux_dataTitulados = this.completedDataTitulados.concat(this.completedDataTitulados.filter(titulado => titulado.carrera == this.listCareers[index]))
     }
-
+    if(  this.sedeSelected != 'all'){
+      aux_dataTitulados = aux_dataTitulados.filter(titulado => titulado.sede == this.sedeSelected)
+    }
+    this.titulados = aux_dataTitulados;
+/*
     // To download data for graph
-    let [listaAcademicPlans,quantityAcademicPlans] = this.filterDataAccordingCareers(item.value)
+    let [listaAcademicPlans,quantityAcademicPlans] = this.filterDataAccordingCareers(item.value, this.titulados)
     this.plansSelected = listaAcademicPlans;
     this.updateOptionsInputs_onlyPlans(this.plansSelected)
     this.loadDataGraph_withOneCareer(listaAcademicPlans,quantityAcademicPlans);
+*/
+    // To download data for graph
+    let dataPlansAcademics = this.filterDataAccordingAcademicPlans(this.titulados);
+    this.loadDataGraph_withPlansAcademics(dataPlansAcademics)
   }
 
   filterByPlanAcademico(item: any) {
@@ -156,7 +163,10 @@ export class TituladosComponent implements OnInit {
       }
     }else{
       for ( let index in this.plansSelected ){
-        this.titulados = this.titulados.concat(this.completedDataTitulados.filter(titulado => titulado.planAcademico == this.plansSelected[index] && titulado.sede == this.sedeSelected && titulado.carrera == this.careerSelected));
+        this.titulados = this.titulados.concat(this.completedDataTitulados.filter(titulado => titulado.planAcademico == this.plansSelected[index] && titulado.sede == this.sedeSelected));
+      }
+      for (let index in this.listCareers){  
+        this.titulados = this.titulados.concat(this.titulados.filter(titulado => titulado.carrera == this.listCareers[index]))
       }
     }
 
@@ -242,12 +252,12 @@ export class TituladosComponent implements OnInit {
    return [listaCarreras,quantityCarreras,listaPlans];
   }
 
-  filterDataAccordingCareers( careerSelected : string){
-    let academicPlans = this.completedDataTitulados.filter(titulado => titulado.sede == this.sedeSelected && titulado.carrera == careerSelected) ;
-    let listaAcademicPlans = [...new Set(academicPlans.map(json => json.planAcademico))];
+  filterDataAccordingCareers( careerSelected : any , dataTituladosFiltered : Titulados []){
+    // let academicPlans = this.completedDataTitulados.filter(titulado => titulado.sede == this.sedeSelected && titulado.carrera == careerSelected) ;
+    let listaAcademicPlans = [...new Set(dataTituladosFiltered.map(json => json.planAcademico))];
     let quantityAcademicPlans = [];
     for( let index in listaAcademicPlans){
-      quantityAcademicPlans.push(academicPlans.filter( titulado => titulado.planAcademico == listaAcademicPlans[index] ).length);
+      quantityAcademicPlans.push(dataTituladosFiltered.filter( titulado => titulado.planAcademico == listaAcademicPlans[index] ).length);
     }
    return [listaAcademicPlans,quantityAcademicPlans];
   }
